@@ -1,0 +1,79 @@
+img{
+    margin:auto;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 150%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+article{
+    background-image: url(/home/becode/Bureau/Profile-card/flex/fond.jpeg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 40% ;
+    border: 2px solid black;
+    margin: auto;
+}
+body{
+    margin-right:30%;
+    margin-left: 30%;
+    margin-bottom: 70%;
+    margin-top: 5%;
+}
+p{
+    text-align: left;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    list-style-position: inside;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+li{
+    text-align: left;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: #d0d3d4;
+}
+li:nth-child(1){
+    background-image: url(/home/becode/Bureau/Profile-card/flex/mail.png);
+    background-position: left;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+li:nth-child(2){
+    background-image: url(/home/becode/Bureau/Profile-card/flex/tel.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+}
+li:nth-child(3){
+    background-image: url(/home/becode/Bureau/Profile-card/flex/github.png);background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+}
+li:nth-child(4){
+    background-image: url(/home/becode/Bureau/Profile-card/flex/map.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
